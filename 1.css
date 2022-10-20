@@ -1,0 +1,82 @@
+    h1,
+    h3,
+    h2 {
+        text-align: center;
+        color: gray;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    header {
+        background-color: black;
+    }
+    
+    .video {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    iframe {
+        border: groove gray 5px;
+    }
+    
+    .boton {
+        border-radius: 7px;
+       background: black;
+       color: gray;
+        width: 20%;
+        margin: auto;
+        border: gray 3px solid;
+        padding:5px;
+
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    @media screen and (max-width: 800px) {
+        .video {
+            flex-direction: column;
+            width: 70%;
+            margin: auto;
+            align-items: center;
+        }
+        .boton {
+            width: 60%;
+        }
+    }
+    
+    table {
+        margin: auto;
+        background: black;
+        padding: 4px;
+        text-align: center;
+        color: gray;
+    }
+    
+    tr,
+    td,
+    table {
+        border: 4px gray groove;
+        padding: 6px;
+    }
+    
+    table :hover {
+        background: white;
+        color: black;
+        cursor:pointer;
+    }
+    
+
+ .boton:hover{
+
+        border: white 3px solid;
+        color:black;
+        background:white;
+
+
+ }
