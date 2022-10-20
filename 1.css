@@ -41,12 +41,17 @@
     @media screen and (max-width: 800px) {
         .video {
             flex-direction: column;
-            width: 70%;
+             width: 400px;
             margin: auto;
             align-items: center;
         }
         .boton {
-            width: 60%;
+            width: 400px;
+        }
+        iframe {
+width:400px;
+height:270px;
+
         }
     }
     
